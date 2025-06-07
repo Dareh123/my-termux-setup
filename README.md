@@ -180,6 +180,12 @@ pkg install php
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/data/data/com.termux/files/usr/bin --filename=composer
 ```
 
+(OR)
+
+```sh
+pkg install composer
+```
+
 - Install nano Editor
 
 ```bash
@@ -264,6 +270,12 @@ pkg install ruby
 
 ```sh
 pkg install rust
+```
+
+- install ollama on termux
+
+```sh
+pkg install ollama
 ```
 
 - install Cloudflared
